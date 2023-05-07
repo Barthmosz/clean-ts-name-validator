@@ -1,15 +1,15 @@
 {
-  "name": "clean-ts-lib",
-  "version": "1.0.0",
-  "description": "Template for clean (TypeScript) library",
+  "name": "clean-name-validator",
+  "version": "0.0.0",
+  "description": "A simple and clean name validator.",
   "keywords": [
-    "clean",
-    "library",
-    "typescript"
+    "name",
+    "validator",
+    "validation"
   ],
-  "homepage": "https://github.com/Barthmosz/clean-ts-lib",
+  "homepage": "https://github.com/Barthmosz/clean-ts-name-validator",
   "bugs": {
-    "url": "https://github.com/Barthmosz/clean-ts-lib/issues"
+    "url": "https://github.com/Barthmosz/clean-ts-name-validator/issues"
   },
   "license": "MIT",
   "author": "Barthmosz (https://github.com/Barthmosz)",
@@ -19,7 +19,7 @@
   "main": "./dist/example.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Barthmosz/clean-ts-lib"
+    "url": "https://github.com/Barthmosz/clean-ts-name-validator"
   },
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
