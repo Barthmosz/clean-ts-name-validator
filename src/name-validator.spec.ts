@@ -11,4 +11,9 @@ describe('Name Validator', () => {
         const sut = makeSut()
         expect(sut.validate('Joe#1')).toBe(false)
     })
+
+    test('should return false if a name with less than the default min length is provided', () => {
+        const sut = makeSut()
+        expect(sut.validate('J')).toBe(false)
+    })
 })
