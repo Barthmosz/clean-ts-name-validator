@@ -31,4 +31,9 @@ describe('Name Validator', () => {
         const sut = makeSut()
         expect(sut.validate('Joe', 1, 2)).toBe(false)
     })
+
+    test('should return true if a valid name is provided', () => {
+        const sut = makeSut()
+        expect(sut.validate('Joe')).toBe(true)
+    })
 })
