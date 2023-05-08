@@ -16,7 +16,7 @@
   "files": [
     "./dist"
   ],
-  "main": "./dist/example.js",
+  "main": "./dist/name-validator.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Barthmosz/clean-ts-name-validator"
