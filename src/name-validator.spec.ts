@@ -26,4 +26,9 @@ describe('Name Validator', () => {
         const sut = makeSut()
         expect(sut.validate('JoeJoeJoeJoeJ')).toBe(false)
     })
+
+    test('should return false if a name with more than the max length is provided', () => {
+        const sut = makeSut()
+        expect(sut.validate('Joe', 1, 2)).toBe(false)
+    })
 })
