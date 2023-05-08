@@ -1,6 +1,5 @@
 export class NameValidator {
-    static validate(name: string): boolean {
-        const nameRegex = /^[A-za-z]{3,10}$/g
-        return nameRegex.test(name)
+    static validate(name: string, minLength: number = 3, maxLength: number = 12): boolean {
+        return new RegExp(`^[A-za-z]{${minLength},${maxLength}}$`).test(name)
     }
 }

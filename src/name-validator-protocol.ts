@@ -1,3 +1,3 @@
 export interface Validator {
-    validate: (name: string) => boolean
+    validate: (name: string, minLength?: number, maxLength?: number) => boolean
 }

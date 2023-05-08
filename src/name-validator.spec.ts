@@ -7,7 +7,7 @@ const makeSut = (): Validator => {
 }
 
 describe('Name Validator', () => {
-    test('should return false if an invalid name is provided', () => {
+    test('should return false if a name with special characters and numbers is provided', () => {
         const sut = makeSut()
         expect(sut.validate('Joe#1')).toBe(false)
     })
